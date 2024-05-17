@@ -33,6 +33,7 @@ class Laptop extends ElectronicDevice{
 
     }
     checkBattery():void{
+        
         console.log(`${this.name} battery level is a ${this.batteryLevel}%`);
         
     }
